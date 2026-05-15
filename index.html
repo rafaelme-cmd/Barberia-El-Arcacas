@@ -11,7 +11,7 @@
 <body>
     <!-- CABECERA -->
     <header>
-        <h1> Barberia El arcacas</h1>
+        <h1> Barberia El Arcacas</h1>
         <p> Cortes que parecen milagros</p>
     </header>
     <!-- NAVEGACION -->
@@ -24,17 +24,12 @@
         <a href="#valoracion">Valoracion</a>
     </nav>
     <section id="inicio">
-        <h2>Bienvenido a Barberia El Arcacas Donde el estilo se encuentra con la precisión</h2>
-        <p>Somos una barbería con años de experiencia dedicados al arte del cuidado masculino. Combinamos técnicas
-            tradicionales con un servicio de primera para asegurar que cada cliente luzca su mejor versión. Nuestro
-            compromiso es brindarte precisión, estilo y una atención personalizada en cada visita.</p>
-        </section>
-        <br>
-        <a  href="#reserva" > Hacer una Reserva </a><br>
-        <!--Catalogo-->
-        <section id="catalogo">
-            <h2>Nuestro Catalogo</h2>
-            <div class="catalogo-place">
+        <h2>Bienvenidos a nuestra Barberia</h2>
+        <p>Somos una barbería con años de experiencia dedicados al arte del cuidado masculino. Combinamos técnicas tradicionales con un servicio de primera para asegurar que cada cliente luzca su mejor versión. Nuestro compromiso es brindarte precisión, estilo y una atención personalizada en cada visita.</p>
+    </section>
+<section id="catalogo">
+        <h2 >Nuestro Catalogo</h2>   
+        <div class="catalogo_place">
                 <article class="cortes">
                     <img src="Imagenes/mid_fade.png">
                     <h3>Mid Fade</h3>
@@ -64,17 +59,16 @@
                 </article>
             </div>
         </section>
-        <!-- HORARIOS -->
-        <section id="horarios">
+         <section id="horarios">
             <h2>Horarios de Atencion</h2>
             <table>
-                <td>
+                <thead>
                     <tr>
                         <th>Mañana</th>
                         <th>Tarde/Noche</th>
                     </tr>
-                </td>
-                <td>
+                </thead>
+                <tbody>
                     <tr>
                         <td>Lunes a Viernes</td>
                         <td>12:00 - 20:00</td>
@@ -87,11 +81,10 @@
                         <td>Domingo</td>
                         <td colspan="2">Cerrado</td>
                     </tr>
-                </td>
+                </tbody>
             </table>
         </section>
-        <!-- RESERVA -->
-        <section id="reserva">
+         <section id="reserva">
             <h2>Hacer una Cita</h2>
             <form action="/reservar" method="POST">
                 <label for="nombre">Nombre completo:</label>
@@ -134,15 +127,14 @@
             <p>¡Tu opinión nos ayuda a mejorar!</p>
             </div>
         </section>
-        <!-- FOOTER -->
-        <footer id="contacto">
-            <p><strong style="color:#c5a059;">Barberia el Arcacas</strong></p>
+         <footer id="contacto">
+            <p><strong style="color:rgb(198, 172, 26);">Barberia el Arcacas</strong></p>
             <p>Av. Los Martirez, Tinguiña, Ica - Peru</p>
             <br>
             <p>
-                <a href="mailto:barbers@elsaborperuano.pe"><span style="color:rgb(24, 141, 176);">barbers@elsaborperuano.pe</a></span>
+                <a href="mailto:barbers@elsaborperuano.pe">barbers@elsaborperuano.pe</a>
                 &nbsp;|&nbsp;
-                <a href="tel:+511234567"><span style="color:rgb(24, 141, 176)">+51 979 886 797</a></span>
+                <a href="tel:+511234567">+51 979 886 797</a>
             </p>
             <br>
             <address>
@@ -150,6 +142,7 @@
                     reservados.</small>
             </address>
         </footer>
+
 </body>
 
 </html>
